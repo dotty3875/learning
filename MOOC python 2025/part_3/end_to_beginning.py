@@ -19,8 +19,9 @@ while track != len(string):
 # new way 
 
 
-string = input("PLease type in a string: ")
+string = input("Please type in a string: ")
 track = 0
 while track < len(string): 
     track += 1
     print(string[len(string) - track])
+
