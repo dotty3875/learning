@@ -1,0 +1,23 @@
+div{
+    border: 1px solid;
+    text-align: center;
+  }
+  
+  line {
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+    text-decoration: underline;
+  }
+  
+  #roses { /*you can use the hashtag like this to identify specific tags */
+    background-color: red; /* you can type a few preset colours instead of selecting it each time like red or lightgreen, just make sure no gaps like HTML colors */
+  }
+  
+  #violets{
+    background-color: violet;
+  }
+  
+  #sugar{
+    background-color: beige;
+  }

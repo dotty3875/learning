@@ -1,0 +1,25 @@
+
+
+/* you can stack multiple elements in the same style */
+ul, ol{
+    border: 1px solid;
+    width: 200px;
+  }
+  
+  ul {
+    background-color:lightgreen;
+  }
+  
+  ol {
+    background-color:skyblue;
+    color: white;
+  }
+  
+/* this specifies that you want this change to only apply to the child elemnt of li within the parent ul */
+  ul > li {
+    text-decoration: underline wavy 3px brown;
+  }
+  /* be sure to use the > but pointed in a counter intuative way like so*/
+  ol > li{
+    text-decoration: underline dotted 3px indigo;
+  }
